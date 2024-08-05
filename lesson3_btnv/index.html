@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navigation {
+        border: 1px solid black;
+        padding: 12px;
+      }
+      .navigation-page {
+        border: 1px solid black;
+        padding: 12px;
+      }
+      .navigation-page.users {
+        position: relative;
+      }
+      .menu {
+        position: absolute;
+        left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navigation">
+      <span class="navigation-page"> Home </span>
+      <span class="navigation-page users">
+        Users
+        <div class="menu">
+          <div class="submenu">Customers</div>
+          <div class="submenu">Admins</div>
+          <div class="submenu">VIP</div>
+          <div class="submenu">Main staff</div>
+        </div>
+      </span>
+      <span class="navigation-page"> Product </span>
+    </div>
+  </body>
+</html>

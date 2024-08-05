@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      .container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <h1>Need Help? Sure we are Online</h1>
+        <p>
+          Let us give you more details about the special offer website you want
+          us. Please fill out the form below.
+        </p>
+        <p>We have million of website owners who happy to work with us</p>
+      </section>
+
+      <section>
+        <form action="#">
+          <div>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              id="yourEmail"
+              name="yourEmail"
+              placeholder="Your Email"
+            />
+            <input
+              type="text"
+              id="yourPhone"
+              name="yourPhone"
+              placeholder="Your Phone"
+            />
+          </div>
+          <div>
+            <select
+              name="countries"
+              id="countries"
+              placeholder="Select Country"
+            >
+              <option value="VN">Việt Nam</option>
+              <option value="Lao">Lào</option>
+              <option value="Campuchia">Campuchia</option>
+              <option value="TL">Thái Lan</option>
+            </select>
+            <select name="courses" id="courses" placeholder="Select Course">
+              <option value="java">Java</option>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">Javascript</option>
+            </select>
+          </div>
+          <textarea
+            name="content"
+            id="content"
+            placeholder="Content"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

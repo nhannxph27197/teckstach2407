@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border: 1px solid #ccc;
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .container-child {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .container-child label {
+        text-align: right;
+        margin: 10px;
+        width: 100px;
+      }
+
+      .container-child input {
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+        width: 300px;
+      }
+
+      .btn-submit {
+        background-color: #4caf50;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-child">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+
+      <div class="container-child">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div class="container-child">
+        <label for="message">Message</label>
+        <input type="text" name="message" id="message" />
+      </div>
+
+      <button class="btn-submit">Submit</button>
+    </div>
+  </body>
+</html>

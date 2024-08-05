@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        background-color: #fff;
+        max-width: 700px;
+        margin: 50px auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      h3 {
+        margin-left: 10px;
+      }
+
+      input[type="text"] {
+        background-color: #fff;
+        width: 41%;
+        border: 1px solid #ccc;
+        margin: 10px 10px;
+        padding: 10px;
+      }
+      input[type="email"] {
+        background-color: #fff;
+        width: 89%;
+        border: 1px solid #ccc;
+        margin: 10px 10px;
+        padding: 10px;
+      }
+
+      textarea {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin: 10px 10px;
+        width: 92%;
+        height: 200px;
+      }
+
+      button {
+        background-color: cornflowerblue;
+        border: 1px solid #ccc;
+        margin: 5px 10px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        float: left;
+      }
+      p {
+        text-align: right;
+        margin-right: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <h3>Get in touch with us by filling contact form below</h3>
+      <input type="text" name="fullName" placeholder="*Enter your full name" />
+      <input
+        type="text"
+        name="address"
+        placeholder="*Enter your email address"
+      />
+      <input type="email" name="subject" placeholder="*Enter your subject" />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="*Your message here..."
+      ></textarea>
+      <button>Send message</button>
+      <p>Please fill all required form field, thanks!</p>
+    </form>
+  </body>
+</html>

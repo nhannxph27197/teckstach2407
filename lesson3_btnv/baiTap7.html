@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border: 1px solid #ccc;
+        width: 800px;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .trai {
+        width: 45%;
+      }
+      .phai {
+        width: 45%;
+      }
+
+      .trai label {
+        display: block;
+        margin: 10px 0 5px;
+      }
+
+      .trai input,
+      .trai textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .btn-gui {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="trai">
+        <form action="">
+          <h2>Liên hệ chúng tôi</h2>
+          <label for="name">Tên của bạn</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="message">Tin nhắn của bạn</label>
+          <textarea name="message" id="message"></textarea>
+
+          <button class="btn-gui">Gửi</button>
+        </form>
+      </div>
+
+      <div class="right">
+        <h2>Thông tin liên hệ</h2>
+        <p>Địa chỉ: 123 đường ABC, Quận 1, TP. Hồ Chí Minh</p>
+        <p>Điện thoại: 0123456789</p>
+        <p>Email: info@exameple.com</p>
+      </div>
+    </div>
+  </body>
+</html>

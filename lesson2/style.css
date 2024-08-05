@@ -1,0 +1,10 @@
+h1 {
+  color: red;
+}
+#heading {
+  color: green;
+}
+.tieuDe .tieuDe4 {
+  color: pink;
+  background-image: url("link-background");
+}

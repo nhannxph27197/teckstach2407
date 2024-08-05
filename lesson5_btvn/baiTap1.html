@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+        background: black;
+        color: white;
+        padding: 10px;
+      }
+      .nav {
+        display: flex;
+      }
+      a {
+        margin-left: 10px;
+        color: white;
+        text-decoration: none;
+      }
+      p {
+        padding: 24px 12px;
+      }
+      @media (max-width: 576px) {
+        .nav {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Logo</div>
+      <div class="nav">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Service</a>
+        <a href="">Contact</a>
+      </div>
+    </header>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+  </body>
+</html>
