@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .container-child {
+        display: flex;
+      }
+
+      .container-left {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 10px;
+      }
+
+      .anh-duoi {
+        width: 100px;
+        margin: 10px;
+      }
+
+      .img-bottom {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+      }
+
+      .btn {
+        border: 1px solid #fcfcfc;
+        border-radius: 3px;
+        padding: 5px 15px;
+        margin-right: 5px;
+      }
+
+      .btn-xanh {
+        background-color: #b0e3e6;
+        border: 1px solid #fcfcfc;
+        border-radius: 3px;
+        padding: 5px 15px;
+        margin-right: 5px;
+      }
+
+      .chung {
+        display: flex;
+        align-items: center;
+      }
+
+      input[type="number"] {
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin-right: 5px;
+        border-radius: 3px;
+        width: 40px;
+      }
+
+      .btn-add {
+        border: 1px solid #e4bcba;
+        cursor: pointer;
+        background-color: #f8cecc;
+        border-radius: 3px;
+        padding: 5px 15px;
+      }
+
+      .customer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #575757;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header-navigation">
+      <div class="col-left">
+        <p></p>
+        <h3>My Shop</h3>
+      </div>
+
+      <div class="pages">
+        <div class="page">Home</div>
+        <div class="page">About us</div>
+        <div class="page">Contact</div>
+        <div class="page cart">My Cart (0)</div>
+      </div>
+    </div>
+    <!-- body -->
+    <div class="container">
+      <div class="container-child">
+        <div class="container-left">
+          <div class="img-top">
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              style="width: 470px; height: 400px; margin: 10px"
+            />
+          </div>
+
+          <div class="img-bottom">
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+
+            <img
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/08/anh-mang-gai-xinh.jpg"
+              alt="Ảnh đẹp"
+              class="anh-duoi"
+            />
+          </div>
+        </div>
+
+        <div class="container-right">
+          <h2>Lorem ipsum dolor</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+
+          <h4>Color</h4>
+          <div class="button">
+            <button class="btn-xanh">Blue</button>
+            <button class="btn">Red</button>
+            <button class="btn">Green</button>
+          </div>
+
+          <h4>Design</h4>
+          <div class="button">
+            <button class="btn-xanh">Classic</button>
+            <button class="btn">Mordern</button>
+          </div>
+
+          <div class="chung">
+            <h4 style="margin-right: 60px">Price</h4>
+            <p style="color: #6f6fe1">$129,01</p>
+          </div>
+
+          <div class="chung">
+            <h4 style="margin-right: 35px">Discount</h4>
+            <p style="color: red">10%</p>
+          </div>
+
+          <h4>Rating</h4>
+
+          <div class="chung">
+            <h4 style="margin-right: 35px">In Stocks</h4>
+            <p style="color: #6f6fe1">1004</p>
+          </div>
+
+          <input type="number" placeholder="0" />
+
+          <button class="btn-add">Add to cart</button>
+        </div>
+      </div>
+      <h3>Comment</h3>
+
+      <div class="customer">
+        <div class="left">
+          <div class="col-left">
+            <p></p>
+            <h3>Customer 1</h3>
+          </div>
+
+          <p style="font-style: italic">2022-10-10 20:10:10</p>
+
+          <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+
+        <div class="right">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+
+      <div class="customer">
+        <div class="left">
+          <div class="col-left">
+            <p></p>
+            <h3>Customer 1</h3>
+          </div>
+
+          <p style="font-style: italic">2022-10-10 20:10:10</p>
+
+          <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+
+        <div class="right">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+
+      <div class="button">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <h3>My shop</h3>
+      <div class="footer-abc">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="footer-p">22C Somewhere Ha Noi</p>
+
+        <i class="fa-solid fa-phone-volume"></i>
+        <p>0123456789</p>
+      </div>
+    </div>
+  </body>
+</html>
